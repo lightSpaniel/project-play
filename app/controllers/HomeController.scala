@@ -91,10 +91,6 @@ class HomeController @Inject() extends Controller {
   }
 
 
-    /* Schema.updateName(id, newName)
-     Redirect(routes.HomeController.details(id))
-     */
-
 
 
 
