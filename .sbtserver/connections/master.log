@@ -1,0 +1,13 @@
+New log file opened at Sun Jul 23 08:48:55 BST 2017 by 5965@Jeremys-MacBook-Air.local
+Taking next connection to: 53440
+New client attempting to connect on port: 53441-53440
+  Address = /192.168.1.66:53440
+This client on port 53441 has uuid e4e4493f-739b-4311-a2dd-685c8e4f23db configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-e4e4493f-739b-4311-a2dd-685c8e4f23db
+Taking next connection to: 53440
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53440
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53440

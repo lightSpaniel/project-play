@@ -1,0 +1,26 @@
+@(user: models.User, userForm: Form[models.UserFormData])(implicit messages: Messages)
+@main(user.name){
+
+    <h2>User details</h2>
+    <p> @user.name
+        <ul>
+            <li>
+                <a href="@routes.HomeController.delete(user.id)">
+                    <button>Delete</button>
+                </a>
+            </li>
+            <li>
+            @helper.form(action = routes.HomeController.update(user.id)){
+                @helper.inputText(userForm("name"))
+
+                <input type="submit">
+                }
+
+            </li>
+        </ul>
+
+
+    </p>
+
+
+}

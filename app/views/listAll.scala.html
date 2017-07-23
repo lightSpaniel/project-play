@@ -1,0 +1,14 @@
+@(users: Seq[models.User])(implicit request: RequestHeader)
+@main("Users List"){
+    <h2>All users</h2>
+    <ul>
+        @for(user <- users){
+            <li>
+                <a href="@routes.HomeController.details(user.id)">
+                @user.name
+                </a>
+            </li>
+        }
+    </ul>
+
+}
